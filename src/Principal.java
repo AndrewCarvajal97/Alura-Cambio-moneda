@@ -73,9 +73,15 @@ public class Principal {
                     conversiones.get(5).calcularConversion();
                     System.out.println(conversiones.get(5));
                     break;
+                case 7:
 
+                    System.out.println("fue un placer ayudarte ");
+                    break;
+                default:
+                    System.out.println("el numero "+eleccion+" no fue una opcion valida escoge una que si lo sea");
+                    break;
             }
-            eleccion =9;
+
 
         }
 
